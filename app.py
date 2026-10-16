@@ -13,3 +13,7 @@ def average(numbers):
 def delete_user(name):
     conn = sqlite3.connect("db.sqlite")
     conn.execute(f"DELETE FROM users WHERE name = '{name}'")
+
+def read_file(path):
+    f = open(path)
+    return f.read()
