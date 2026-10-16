@@ -17,4 +17,4 @@ def delete_user(name):
 def read_file(path):
     f = open(path)
     return f.read()
-    
+    # test update 3
